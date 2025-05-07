@@ -1,0 +1,46 @@
+.cuerpo {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+aside {
+  margin-top: 0px;
+  padding: 15px;
+  border-left: 1px solid #dddcdc;
+}
+
+.titulosecundario {
+  background-color: #eda0c7;
+  color: #d93d8b;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: bold;
+  border: #eda0c7;
+  margin: 0 auto;
+  padding: 5px;
+  padding-left: 60px;
+  padding-right: 60px;
+  margin-bottom: 25px;
+  display: flex;
+}
+.entrada {
+  list-style: none;
+  padding: 4%;
+}
+
+.meses li {
+  list-style: none;
+}
+
+.follow {
+  display: flex;
+  background-color: #3399ff;
+  border-color: #3399ff;
+  color: rgb(255, 255, 255);
+  padding-left: 10px;
+  padding-right: 10px;
+}
