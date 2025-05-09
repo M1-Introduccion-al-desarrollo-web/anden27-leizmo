@@ -142,3 +142,26 @@ footer {
 .p-margin-top {
   margin-top: 30px;
 }
+
+ul.entrada li {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+ul.meses li {
+  margin-left: 15px;
+}
+
+ul.meses .no-margin {
+  margin-left: 0px;
+}
+
+ul.meses .li-margin-left {
+  margin-left: 30px;
+}
+
+ul.meses {
+  margin-bottom: 20px;
+}
