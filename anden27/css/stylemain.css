@@ -132,10 +132,10 @@ figcaption{
   list-style: none;
   margin-top: 10px;
 }
+
 .entradainferior {
-  justify-content: center;
   display: flex;
-  gap: 120px;
+  justify-content: space-between;
   margin-bottom: 50px;
 }
 
@@ -175,4 +175,10 @@ ul.meses .li-margin-left {
 
 ul.meses {
   margin-bottom: 20px;
+}
+
+#comentarios {
+  margin-top: 20px;
+  width: 548px;
+  height: 36px;
 }

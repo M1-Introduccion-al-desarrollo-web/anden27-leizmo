@@ -26,6 +26,7 @@ aside {
   padding-right: 60px;
   margin-bottom: 25px;
   display: flex;
+  margin-top: 20px;
 }
 .entrada {
   list-style: none;
@@ -51,7 +52,4 @@ aside {
   color: rgb(255, 255, 255);
   padding-left: 10px;
   padding-right: 10px;
-}
-.socialmedia {
-  
 }
