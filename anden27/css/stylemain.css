@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 
 * {
   margin: 0;
@@ -14,18 +14,9 @@
 
 body {
   background-color: #faf7f7;
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-size: 14px;
   color: #585858;
-}
-
-.uluno {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-}
-.uluno li {
-  list-style: none;
 }
 
 .barrasuperior {
@@ -44,6 +35,45 @@ body {
   width: 100%;
 }
 
+.uluno {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.uluno li {
+  list-style: none;
+  position: relative;
+}
+
+.uluno a {
+  color: #3399ff;
+  text-decoration: none;
+}
+
+.uluno a:hover {
+  color: #000000;
+}
+
+.uluno li:hover > .subbarra {
+  display: block;
+}
+
+.subbarra {
+  font-size: 13px;
+  display: none;
+  position: absolute;
+  background-color: #e6edf7;
+  list-style: none;
+  min-width: 120px;
+}
+
+.subbarra li a {
+  display: block;
+  color: #3399ff;
+  text-decoration: none;
+  padding: 10px;
+}
+
 .buscar {
   text-align: center;
   padding: 5px;
@@ -57,7 +87,7 @@ body {
   margin: 0 auto;
   padding: 20px;
   background-color: #faf7f7;
-  box-shadow: 0 0 10px  #b1b1b1;
+  box-shadow: 0 0 10px #b1b1b1;
 }
 .cabecerados {
   color: #696868;
@@ -75,6 +105,15 @@ body {
 .uldos li {
   list-style: none;
 }
+
+.uldos a {
+  color: #000000;
+  text-decoration: none;
+}
+.uldos a:hover {
+  color: #3399ff;
+}
+
 .tituloprincipal {
   font-family: "Corsiva";
   color: #848484;
@@ -100,7 +139,7 @@ h4 {
   text-align: justify;
   margin-top: 20px;
 }
-.parraffin{
+.parraffin {
   color: #666666;
   font-size: 15.4px;
   line-height: 24px;
@@ -109,7 +148,7 @@ h4 {
   margin-top: 0px;
 }
 
-figcaption{
+figcaption {
   text-align: center;
   margin-top: 5px;
   color: #666666;
