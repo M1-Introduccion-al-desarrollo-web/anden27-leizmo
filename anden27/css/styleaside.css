@@ -13,6 +13,10 @@ aside {
   border-left: 1px solid #dddcdc;
 }
 
+.barrainferior {
+  margin-top: 60px;
+}
+
 .titulosecundario {
   background-color: #eda0c7;
   color: #d93d8b;
